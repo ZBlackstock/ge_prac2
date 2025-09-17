@@ -112,11 +112,11 @@
 			[
 				{
 					"backtrace" : 7,
-					"path" : "C:/University/GE/ge_prac1/lib/SFML/include"
+					"path" : "C:/University/GE/ge_prac2/lib/SFML/include"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "C:/University/GE/ge_prac1/lib/SFML/src"
+					"path" : "C:/University/GE/ge_prac2/lib/SFML/src"
 				}
 			],
 			"language" : "CXX",
@@ -173,11 +173,11 @@
 			[
 				{
 					"backtrace" : 7,
-					"path" : "C:/University/GE/ge_prac1/lib/SFML/include"
+					"path" : "C:/University/GE/ge_prac2/lib/SFML/include"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "C:/University/GE/ge_prac1/lib/SFML/src"
+					"path" : "C:/University/GE/ge_prac2/lib/SFML/src"
 				}
 			],
 			"language" : "RC",
@@ -207,7 +207,7 @@
 		],
 		"prefix" : 
 		{
-			"path" : "C:/University/GE/ge_prac1/out/install/x64-Debug"
+			"path" : "C:/University/GE/ge_prac2/out/install/x64-Debug"
 		}
 	},
 	"link" : 

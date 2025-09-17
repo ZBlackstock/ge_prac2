@@ -1,8 +1,8 @@
-# Install script for directory: C:/University/GE/ge_prac1/lib/SFML/src/SFML/Network
+# Install script for directory: C:/University/GE/ge_prac2/lib/SFML/src/SFML/Network
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/University/GE/ge_prac1/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/University/GE/ge_prac2/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,16 +33,16 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "devel" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/University/GE/ge_prac1/out/build/x64-Debug/lib/SFML/lib/sfml-network-d.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/University/GE/ge_prac2/out/build/x64-Debug/lib/SFML/lib/sfml-network-d.lib")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "bin" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "C:/University/GE/ge_prac1/out/build/x64-Debug/bin/sfml-network-d-2.dll")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "C:/University/GE/ge_prac2/out/build/x64-Debug/bin/sfml-network-d-2.dll")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/University/GE/ge_prac1/out/build/x64-Debug/lib/SFML/src/SFML/Network/install_local_manifest.txt"
+  file(WRITE "C:/University/GE/ge_prac2/out/build/x64-Debug/lib/SFML/src/SFML/Network/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

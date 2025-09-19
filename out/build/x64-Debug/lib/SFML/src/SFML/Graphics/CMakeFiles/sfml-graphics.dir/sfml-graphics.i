@@ -1,4 +1,4 @@
-#line 1 "C:\\University\\GE\\ge_prac2\\out\\build\\x64-Debug\\lib\\SFML\\src\\SFML\\Graphics\\sfml-graphics.rc"
+#line 1 "C:\\uni\\ge\\ge_prac2\\out\\build\\x64-Debug\\lib\\SFML\\src\\SFML\\Graphics\\sfml-graphics.rc"
 #line 1 "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\um\\winresrc.h"
 
 
@@ -8770,7 +8770,7 @@
 #line 42 "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\um\\winresrc.h"
 
 #line 44 "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\um\\winresrc.h"
-#line 2 "C:\\University\\GE\\ge_prac2\\out\\build\\x64-Debug\\lib\\SFML\\src\\SFML\\Graphics\\sfml-graphics.rc"
+#line 2 "C:\\uni\\ge\\ge_prac2\\out\\build\\x64-Debug\\lib\\SFML\\src\\SFML\\Graphics\\sfml-graphics.rc"
 
 
 
@@ -8789,19 +8789,19 @@
 
 
 
-#line 21 "C:\\University\\GE\\ge_prac2\\out\\build\\x64-Debug\\lib\\SFML\\src\\SFML\\Graphics\\sfml-graphics.rc"
+#line 21 "C:\\uni\\ge\\ge_prac2\\out\\build\\x64-Debug\\lib\\SFML\\src\\SFML\\Graphics\\sfml-graphics.rc"
 
 
 
-#line 25 "C:\\University\\GE\\ge_prac2\\out\\build\\x64-Debug\\lib\\SFML\\src\\SFML\\Graphics\\sfml-graphics.rc"
+#line 25 "C:\\uni\\ge\\ge_prac2\\out\\build\\x64-Debug\\lib\\SFML\\src\\SFML\\Graphics\\sfml-graphics.rc"
     
-#line 27 "C:\\University\\GE\\ge_prac2\\out\\build\\x64-Debug\\lib\\SFML\\src\\SFML\\Graphics\\sfml-graphics.rc"
+#line 27 "C:\\uni\\ge\\ge_prac2\\out\\build\\x64-Debug\\lib\\SFML\\src\\SFML\\Graphics\\sfml-graphics.rc"
 
 
     
 
 
-#line 33 "C:\\University\\GE\\ge_prac2\\out\\build\\x64-Debug\\lib\\SFML\\src\\SFML\\Graphics\\sfml-graphics.rc"
+#line 33 "C:\\uni\\ge\\ge_prac2\\out\\build\\x64-Debug\\lib\\SFML\\src\\SFML\\Graphics\\sfml-graphics.rc"
 
 1 VERSIONINFO
 FILEVERSION     2,6,2,0

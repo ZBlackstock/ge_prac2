@@ -86,7 +86,7 @@
 			[
 				{
 					"backtrace" : 8,
-					"path" : "C:/University/GE/ge_prac2/lib/SFML/include"
+					"path" : "C:/uni/ge/ge_prac2/lib/SFML/include"
 				}
 			],
 			"language" : "CXX",
@@ -134,7 +134,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LIBPATH:C:\\University\\GE\\ge_prac2\\out\\build\\x64-Debug\\lib\\SFML\\lib",
+				"fragment" : "-LIBPATH:C:\\uni\\ge\\ge_prac2\\out\\build\\x64-Debug\\lib\\SFML\\lib",
 				"role" : "libraryPath"
 			},
 			{

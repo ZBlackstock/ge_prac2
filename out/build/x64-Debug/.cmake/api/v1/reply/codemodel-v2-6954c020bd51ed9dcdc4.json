@@ -205,49 +205,49 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "pong::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-pong-Debug-872f017bf273568800d8.json",
+					"jsonFile" : "target-pong-Debug-a28c2e95e257ece38f11.json",
 					"name" : "pong",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 8,
 					"id" : "sfml-audio::@2c88909a109778213ad3",
-					"jsonFile" : "target-sfml-audio-Debug-671f0af8b4dca92a3b01.json",
+					"jsonFile" : "target-sfml-audio-Debug-e5cdcab19c559a77c65a.json",
 					"name" : "sfml-audio",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 7,
 					"id" : "sfml-graphics::@05826a7f30b7c69d94d4",
-					"jsonFile" : "target-sfml-graphics-Debug-0a3d6451cb59cb965dc8.json",
+					"jsonFile" : "target-sfml-graphics-Debug-8c9a2176b4f39d6074f9.json",
 					"name" : "sfml-graphics",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "sfml-main::@4d6cc2d9f74f742f1a09",
-					"jsonFile" : "target-sfml-main-Debug-3656204e2d498fdec507.json",
+					"jsonFile" : "target-sfml-main-Debug-23b19049e48b66ce7bff.json",
 					"name" : "sfml-main",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 6,
 					"id" : "sfml-network::@c3d7f79628bafd5c7994",
-					"jsonFile" : "target-sfml-network-Debug-888880e8929cc6bbbe99.json",
+					"jsonFile" : "target-sfml-network-Debug-05f38862ef128babe0ad.json",
 					"name" : "sfml-network",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "sfml-system::@a0857d3fa2d27435d485",
-					"jsonFile" : "target-sfml-system-Debug-79d4c56a14fb35f7c0cd.json",
+					"jsonFile" : "target-sfml-system-Debug-fbca9cab8277109fbc7a.json",
 					"name" : "sfml-system",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "sfml-window::@662453be02e81ddd067b",
-					"jsonFile" : "target-sfml-window-Debug-4f4fd9167f5e2404c6ea.json",
+					"jsonFile" : "target-sfml-window-Debug-c012bc7a6f3ed8ac0fcb.json",
 					"name" : "sfml-window",
 					"projectIndex" : 1
 				}
@@ -257,8 +257,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/University/GE/ge_prac2/out/build/x64-Debug",
-		"source" : "C:/University/GE/ge_prac2"
+		"build" : "C:/uni/ge/ge_prac2/out/build/x64-Debug",
+		"source" : "C:/uni/ge/ge_prac2"
 	},
 	"version" : 
 	{

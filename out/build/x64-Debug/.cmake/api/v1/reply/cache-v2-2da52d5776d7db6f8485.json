@@ -51,7 +51,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/University/GE/ge_prac2/out/build/x64-Debug"
+			"value" : "c:/uni/ge/ge_prac2/out/build/x64-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -495,7 +495,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/University/GE/ge_prac2/out/build/x64-Debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/uni/ge/ge_prac2/out/build/x64-Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -555,7 +555,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/University/GE/ge_prac2"
+			"value" : "C:/uni/ge/ge_prac2"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -759,7 +759,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/University/GE/ge_prac2/out/install/x64-Debug"
+			"value" : "C:/uni/ge/ge_prac2/out/install/x64-Debug"
 		},
 		{
 			"name" : "CMAKE_INSTALL_RUNSTATEDIR",
@@ -1515,7 +1515,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[C:/University/GE/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/flac.lib][C:/University/GE/ge_prac2/lib/SFML/extlibs/headers][v()]"
+			"value" : "[C:/uni/ge/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/flac.lib][C:/uni/ge/ge_prac2/lib/SFML/extlibs/headers][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenAL",
@@ -1527,7 +1527,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[C:/University/GE/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/openal32.lib][C:/University/GE/ge_prac2/lib/SFML/extlibs/headers/AL][v()]"
+			"value" : "[C:/uni/ge/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/openal32.lib][C:/uni/ge/ge_prac2/lib/SFML/extlibs/headers/AL][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenGL",
@@ -1551,7 +1551,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[C:/University/GE/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/vorbisenc.lib;C:/University/GE/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/vorbisfile.lib;C:/University/GE/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/vorbis.lib;C:/University/GE/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/ogg.lib][C:/University/GE/ge_prac2/lib/SFML/extlibs/headers][C:/University/GE/ge_prac2/lib/SFML/extlibs/headers][v()]"
+			"value" : "[C:/uni/ge/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/vorbisenc.lib;C:/uni/ge/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/vorbisfile.lib;C:/uni/ge/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/vorbis.lib;C:/uni/ge/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/ogg.lib][C:/uni/ge/ge_prac2/lib/SFML/extlibs/headers][C:/uni/ge/ge_prac2/lib/SFML/extlibs/headers][v()]"
 		},
 		{
 			"name" : "FLAC_INCLUDE_DIR",
@@ -1567,7 +1567,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/University/GE/ge_prac2/lib/SFML/extlibs/headers"
+			"value" : "C:/uni/ge/ge_prac2/lib/SFML/extlibs/headers"
 		},
 		{
 			"name" : "FLAC_LIBRARY",
@@ -1583,7 +1583,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/University/GE/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/flac.lib"
+			"value" : "C:/uni/ge/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/flac.lib"
 		},
 		{
 			"name" : "FREETYPE_INCLUDE_DIR_freetype2",
@@ -1599,7 +1599,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/University/GE/ge_prac2/lib/SFML/extlibs/headers/freetype2"
+			"value" : "C:/uni/ge/ge_prac2/lib/SFML/extlibs/headers/freetype2"
 		},
 		{
 			"name" : "FREETYPE_INCLUDE_DIR_ft2build",
@@ -1615,7 +1615,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/University/GE/ge_prac2/lib/SFML/extlibs/headers/freetype2"
+			"value" : "C:/uni/ge/ge_prac2/lib/SFML/extlibs/headers/freetype2"
 		},
 		{
 			"name" : "FREETYPE_LIBRARY",
@@ -1631,7 +1631,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/University/GE/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/freetype.lib"
+			"value" : "C:/uni/ge/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/freetype.lib"
 		},
 		{
 			"name" : "HAVE_SIZEOF_VOID_PTR",
@@ -1695,7 +1695,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/University/GE/ge_prac2/lib/SFML/extlibs/headers"
+			"value" : "C:/uni/ge/ge_prac2/lib/SFML/extlibs/headers"
 		},
 		{
 			"name" : "OGG_LIBRARY",
@@ -1711,7 +1711,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/University/GE/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/ogg.lib"
+			"value" : "C:/uni/ge/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/ogg.lib"
 		},
 		{
 			"name" : "OPENAL_INCLUDE_DIR",
@@ -1727,7 +1727,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/University/GE/ge_prac2/lib/SFML/extlibs/headers/AL"
+			"value" : "C:/uni/ge/ge_prac2/lib/SFML/extlibs/headers/AL"
 		},
 		{
 			"name" : "OPENAL_LIBRARY",
@@ -1743,7 +1743,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/University/GE/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/openal32.lib"
+			"value" : "C:/uni/ge/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/openal32.lib"
 		},
 		{
 			"name" : "OPENGL_gl_LIBRARY",
@@ -1787,7 +1787,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/University/GE/ge_prac2/out/build/x64-Debug/lib/SFML"
+			"value" : "C:/uni/ge/ge_prac2/out/build/x64-Debug/lib/SFML"
 		},
 		{
 			"name" : "SFML_BUILD_AUDIO",
@@ -1931,7 +1931,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/University/GE/ge_prac2/lib/SFML"
+			"value" : "C:/uni/ge/ge_prac2/lib/SFML"
 		},
 		{
 			"name" : "SFML_USE_STATIC_STD_LIBS",
@@ -1983,7 +1983,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/University/GE/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/vorbisenc.lib"
+			"value" : "C:/uni/ge/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/vorbisenc.lib"
 		},
 		{
 			"name" : "VORBISFILE_LIBRARY",
@@ -1999,7 +1999,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/University/GE/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/vorbisfile.lib"
+			"value" : "C:/uni/ge/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/vorbisfile.lib"
 		},
 		{
 			"name" : "VORBIS_INCLUDE_DIR",
@@ -2015,7 +2015,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/University/GE/ge_prac2/lib/SFML/extlibs/headers"
+			"value" : "C:/uni/ge/ge_prac2/lib/SFML/extlibs/headers"
 		},
 		{
 			"name" : "VORBIS_LIBRARY",
@@ -2031,7 +2031,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/University/GE/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/vorbis.lib"
+			"value" : "C:/uni/ge/ge_prac2/lib/SFML/extlibs/libs-msvc-universal/x64/vorbis.lib"
 		},
 		{
 			"name" : "WARNINGS_AS_ERRORS",
@@ -2055,7 +2055,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/University/GE/ge_prac2/out/install/x64-Debug"
+			"value" : "C:/uni/ge/ge_prac2/out/install/x64-Debug"
 		},
 		{
 			"name" : "pong_BINARY_DIR",
@@ -2067,7 +2067,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/University/GE/ge_prac2/out/build/x64-Debug"
+			"value" : "C:/uni/ge/ge_prac2/out/build/x64-Debug"
 		},
 		{
 			"name" : "pong_IS_TOP_LEVEL",
@@ -2091,7 +2091,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/University/GE/ge_prac2"
+			"value" : "C:/uni/ge/ge_prac2"
 		},
 		{
 			"name" : "sfml-audio_LIB_DEPENDS",

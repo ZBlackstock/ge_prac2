@@ -25,13 +25,21 @@ const float initial_velocity_x = 100.f;
 const float initial_velocity_y = 60.f;
 const float velocity_multiplier = 1.1f;
 
+sf::Font font;
+sf::Text text;
+int count = 0;
+
 void reset()
 {
 	paddles[0].setPosition(paddleOffsetWall + paddleSize.x / 2.f, gameHeight / 2.f);
-	paddles[1].setPosition(gameWidth - paddleSize.x / 2.f, gameHeight / 2.f);
+	paddles[1].setPosition(gameWidth - paddleOffsetWall - paddleSize.x / 2.f, gameHeight / 2.f);
 
 	ball.setPosition(gameWidth / 2.f, gameHeight / 2.f);
 	ball_velocity = { (is_player1_serving ? initial_velocity_x : -initial_velocity_x), initial_velocity_y };
+
+	count = 0;
+	text.setPosition((gameWidth * .5f) - (text.getLocalBounds().width * .5f), 0);
+	text.setString("0");
 }
 
 void init()
@@ -45,6 +53,12 @@ void init()
 	ball.setRadius(ballRadius);
 	ball.setOrigin(ballRadius / 2.f, ballRadius / 2.f);
 
+	font.loadFromFile("Arial.ttf");
+	text.setFont(font);
+	text.setCharacterSize(40);
+	text.setColor(sf::Color().White);
+	
+
 	reset();
 }
 
@@ -52,19 +66,19 @@ void update(float deltaTime)
 {
 	float player1_direction = 0.0f;
 	float player2_direction = 0.0f;
-	if (sf::Keyboard::isKeyPressed(controls[0]))
+	if (sf::Keyboard::isKeyPressed(controls[0]) && paddles[0].getPosition().y > (paddleSize.y / 2 + paddleOffsetWall))
 	{
 		player1_direction--;
 	}
-	if (sf::Keyboard::isKeyPressed(controls[1]))
+	if (sf::Keyboard::isKeyPressed(controls[1]) && paddles[0].getPosition().y < (gameHeight - (paddleSize.y / 2 + paddleOffsetWall)))
 	{
 		player1_direction++;
 	}
-	if (sf::Keyboard::isKeyPressed(controls[2]))
+	if (sf::Keyboard::isKeyPressed(controls[2]) && paddles[1].getPosition().y > (paddleSize.y / 2 + paddleOffsetWall))
 	{
 		player2_direction--;
 	}
-	if (sf::Keyboard::isKeyPressed(controls[3]))
+	if (sf::Keyboard::isKeyPressed(controls[3]) && paddles[1].getPosition().y < (gameHeight - (paddleSize.y / 2 + paddleOffsetWall)))
 	{
 		player2_direction++;
 	}
@@ -76,7 +90,7 @@ void update(float deltaTime)
 	const float bx = ball.getPosition().x;
 	const float by = ball.getPosition().y;
 
-	if (by > gameHeight) 
+	if (by > gameHeight)
 	{
 		ball_velocity.x *= velocity_multiplier;
 		ball_velocity.y *= -velocity_multiplier;
@@ -103,6 +117,7 @@ void update(float deltaTime)
 		ball_velocity.x *= -velocity_multiplier;
 		ball_velocity.y *= velocity_multiplier;
 		ball.move(sf::Vector2f(10.f, 0.f));
+		count++;
 	}
 	else if (bx > gameWidth - (paddleSize.x + paddleOffsetWall)
 		&& by > paddles[1].getPosition().y - (paddleSize.y * 0.5)
@@ -111,7 +126,10 @@ void update(float deltaTime)
 		ball_velocity.x *= -velocity_multiplier;
 		ball_velocity.y *= velocity_multiplier;
 		ball.move(sf::Vector2f(-10.f, 0.f));
+		count++;
 	}
+
+	text.setString(std::to_string(count));
 }
 
 void render(sf::RenderWindow& window)
@@ -119,6 +137,7 @@ void render(sf::RenderWindow& window)
 	window.draw(paddles[0]);
 	window.draw(paddles[1]);
 	window.draw(ball);
+	window.draw(text);
 }
 
 int main()

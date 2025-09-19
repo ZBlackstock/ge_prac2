@@ -99,11 +99,11 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "C:/University/GE/ge_prac2/lib/SFML/include"
+					"path" : "C:/uni/ge/ge_prac2/lib/SFML/include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/University/GE/ge_prac2/lib/SFML/src"
+					"path" : "C:/uni/ge/ge_prac2/lib/SFML/src"
 				}
 			],
 			"language" : "CXX",
@@ -137,7 +137,7 @@
 		],
 		"prefix" : 
 		{
-			"path" : "C:/University/GE/ge_prac2/out/install/x64-Debug"
+			"path" : "C:/uni/ge/ge_prac2/out/install/x64-Debug"
 		}
 	},
 	"name" : "sfml-main",
